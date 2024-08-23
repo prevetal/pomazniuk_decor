@@ -1,0 +1,110 @@
+@media print,
+(max-width: 1023px)
+{
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: 10px;
+    }
+
+    .swiper-button-next
+    {
+        right: 10px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .bg
+    {
+        display: none;
+    }
+
+    .first_section .mob_bg
+    {
+        display: block;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 70px;
+    }
+
+
+
+    /*----------------
+        Main bvalue
+    ----------------*/
+    .main_value .title
+    {
+        padding: 0 15%;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .products .product .name
+    {
+        padding-top: 4px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .advantages .item .desc br
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Instagram
+    ---------------*/
+    .instagram .grid
+    {
+        width: 600px;
+        max-width: 100%;
+        margin: 0 auto;
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+
+
+    /*---------------------------
+        PopUp - Product modal
+    ---------------------------*/
+    .modal.product_info
+    {
+        padding: 24px;
+    }
+}

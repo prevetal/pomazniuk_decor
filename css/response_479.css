@@ -1,0 +1,67 @@
+@media (max-width: 479px)
+{
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 34px;
+    }
+
+
+    .first_section .phone,
+    .first_section .email
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*---------------
+        Instagram
+    ---------------*/
+    .instagram .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .instagram .title br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 24px;
+    }
+}

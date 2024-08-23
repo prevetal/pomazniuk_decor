@@ -1,0 +1,355 @@
+@media print,
+(max-width: 767px)
+{
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+    .fancybox__content
+    {
+        position: relative;
+    }
+
+
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 16px;
+        right: 16px;
+
+        --f-button-color: #000;
+        --f-button-hover-color: #000;
+        --f-button-width: 28px;
+        --f-button-height: 28px;
+        --f-button-svg-width: 28px;
+        --f-button-svg-height: 28px;
+    }
+
+
+
+    /*-------------------
+        Form elements
+    -------------------*/
+    .form .input
+    {
+        height: 52px;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 56px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 44px;
+    }
+
+
+    .first_section .phone
+    {
+        font-size: 24px;
+
+        margin-top: 28px;
+    }
+
+
+    .first_section .email
+    {
+        font-size: 24px;
+
+        margin-top: 10px;
+    }
+
+
+
+    .first_section .scroll_down
+    {
+        bottom: 32px;
+
+        width: 32px;
+        height: 32px;
+    }
+
+
+
+    /*----------------
+        Main bvalue
+    ----------------*/
+    .main_value
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .main_value .title
+    {
+        font-size: 24px;
+
+        padding: 0;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .products .row
+    {
+        margin-left: 0;
+    }
+
+
+    .products .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .advantages .title
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .advantages .row
+    {
+        margin-left: 0;
+    }
+
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .advantages .item .icon
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .advantages .item .desc
+    {
+        margin-top: 16px;
+        padding: 0 10%;
+    }
+
+
+
+    /*---------------
+        Instagram
+    ---------------*/
+    .instagram
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .instagram .title
+    {
+        font-size: 35px;
+        line-height: 1.1;
+
+        margin-bottom: 48px;
+    }
+
+
+    .instagram .grid
+    {
+        grid-gap: 12px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .contacts_info .title
+    {
+        font-size: 35px;
+        line-height: 1.1;
+
+        margin-bottom: 48px;
+    }
+
+
+    .contacts_info .author .photo
+    {
+        width: 160px;
+        height: 160px;
+    }
+
+
+    .contacts_info .messengers
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*----------------
+        Fixed cart
+    ----------------*/
+    .fixed_cart
+    {
+        top: 48px;
+    }
+
+
+    .fixed_cart .btn
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+
+    .fixed_cart .btn svg
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .fixed_cart .btn .count
+    {
+        font-size: 14px;
+        line-height: 25px;
+
+        min-width: 24px;
+        height: 24px;
+        padding: 0 4px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 28px;
+    }
+
+
+
+    /*------------------------
+        PopUp - Cart modal
+    ------------------------*/
+    #cart_modal .total_price
+    {
+        margin-top: 24px;
+    }
+
+
+    #cart_modal .form .total_price
+    {
+        font-size: 22px;
+        line-height: 1.50;
+
+        margin-bottom: 24px;
+    }
+
+
+    #cart_modal .product .info
+    {
+        width: calc(100% - 44px);
+        margin-bottom: 12px;
+    }
+
+
+    #cart_modal .product .amount
+    {
+        margin-left: 0;
+    }
+
+
+    #cart_modal .product .amount,
+    #cart_modal .product .price
+    {
+        order: 3;
+    }
+
+
+    #cart_modal .product .price
+    {
+        width: auto;
+        margin-right: auto;
+    }
+
+
+    #cart_modal .product .delete_btn
+    {
+        align-self: flex-start;
+        order: 2;
+    }
+
+
+
+    /*---------------------------
+        PopUp - Product modal
+    ---------------------------*/
+    .product_info .images
+    {
+        width: calc(100% + 48px);
+        margin-top: -24px;
+        margin-right: -24px;
+        margin-bottom: 24px;
+        margin-left: -24px;
+    }
+
+
+    .product_info .data
+    {
+        width: 100%;
+    }
+
+
+    .product_info .images .thumbs
+    {
+        margin-top: 0;
+        padding: 5px;
+    }
+}
